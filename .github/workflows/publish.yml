@@ -13,6 +13,8 @@ jobs:
         run: | 
               pwd
               ls
+              pwd
+              ls docs-site
             
       - name: Run Antora
         uses: kameshsampath/antora-site-action@v0.2.4
