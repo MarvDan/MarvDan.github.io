@@ -12,6 +12,7 @@ ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+    #following disable jekyll, because otherwise it could cause problems using Antora
   supplemental_files:
   - path: ui.yml
     contents: |
