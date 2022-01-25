@@ -8,6 +8,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        
+      - name: TESTING
+        run: | 
+              pwd
+              ls
+            
       - name: Run Antora
         uses: kameshsampath/antora-site-action@v0.2.4
         with:
